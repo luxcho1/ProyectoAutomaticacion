@@ -35,10 +35,10 @@ En la siguiente ubicacion `C:\laragon\www\ProyectoAutomaticacion` ya sea CMD de 
   composer install
 ```
 ```bash
-  php artisan key:generate
+  cp .env.example .env
 ```
 ```bash
-  cp .env.example .env
+  php artisan key:generate
 ```
 
 El archivo `.env` debe quedar de la siguiente forma:
