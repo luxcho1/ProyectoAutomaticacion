@@ -5,24 +5,29 @@ Proyecto realizado en segundo semestre del 2023 para el ramo "Automatización" d
 
 
 ## Instalacion de forma local
-Programas necesarios:
+#### Programas necesarios:
 
 - Visual Studio Code
 - Laragon o Xampp (Tutorial hecho con laragon)
 - phpMyAdmin
 - Git (Opcional)
 
-Orden instalacion programas
+#### Orden instalacion programas
 
-   1. Instalar Laragon `https://laragon.org/download/index.html`
-2. Instalar phpMyAdmin `https://www.phpmyadmin.net/downloads/`
-Descomprimir y carpeta `'phpMyAdmin-5.2.1-all-languages'` renombrarla a `phpMyAdmin` y moverla a la siguiente carpeta `C:\laragon\etc\apps`
+   1. Instalar Laragon https://laragon.org/download/index.html
+2. Instalar phpMyAdmin https://www.phpmyadmin.net/downloads/
+Descomprimir y la carpeta `'phpMyAdmin-5.2.1-all-languages'` renombrarla a `phpMyAdmin` y moverla a la siguiente carpeta `C:\laragon\etc\apps`.
 
-Clonacion del proyecto
+#### Clonacion del proyecto
 
-Hay dos formas de realizarlo descargar el zip y pegarlo en la siguiente ruta `C:\laragon\www`.
-O en esta ruta `C:\laragon\www` abrir el cmd y escribir `git clone https://github.com/luxcho1/ProyectoAutomaticacion.git`.
-## Configurar proyecto
+Hay dos formas de realizarlo, la primera descargar el zip y pegarlo en la siguiente ruta: `C:\laragon\www`.
+
+Y la segunda en esta ruta `C:\laragon\www` abrir el cmd y escribir: 
+```bash
+  git clone https://github.com/luxcho1/ProyectoAutomaticacion.git
+```
+
+## Configurar proyecto y base de datos
 En Laragon abrirmos Base de Datos y en la pagina de phpmyadmin le damos a click "nueva" y creamos una base de datos llamada `automatizacion`.
 
 En la siguiente ubicacion `C:\laragon\www\ProyectoAutomaticacion` ya sea CMD de Windows o en la terminal de Visual Studio Code ejecutar los siguientes comandos:
