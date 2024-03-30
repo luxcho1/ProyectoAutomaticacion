@@ -10,13 +10,15 @@ Proyecto realizado en segundo semestre del 2023 para el ramo "Automatización" d
 - Visual Studio Code
 - Laragon o Xampp (Tutorial hecho con laragon)
 - phpMyAdmin
+- Composer
 - Git (Opcional)
 
 #### Orden instalacion programas
 
    1. Instalar Laragon https://laragon.org/download/index.html
 2. Instalar phpMyAdmin https://www.phpmyadmin.net/downloads/
-Descomprimir y la carpeta `'phpMyAdmin-5.2.1-all-languages'` renombrarla a `phpMyAdmin` y moverla a la siguiente carpeta `C:\laragon\etc\apps`.
+Descomprimir y la carpeta `phpMyAdmin-5.2.1-all-languages` renombrarla a `phpMyAdmin` y moverla a la siguiente carpeta `C:\laragon\etc\apps`.
+3. Instalar composer y adjuntar ruta de php `C:\laragon\bin\php\php-8.1.10-Win32-vs16-x64`
 
 #### Clonacion del proyecto
 
